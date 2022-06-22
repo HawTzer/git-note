@@ -1,0 +1,15 @@
+call cd
+git init
+git add [filename] / git add .
+git commit -m"message"
+***check git remote to ensure whether it is commited to local server/outside server***
+git remote
+git remote -v
+***to remove git remote origin***
+git remote remove origin
+git remote add origin [URL link = github/gitea]
+git remote
+git remote -v (to check again)
+#git push --set-upstream origin main=>for github
+#git push --set-upstream origin master=>for gitea
+check github/gitea
